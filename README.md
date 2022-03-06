@@ -33,6 +33,12 @@ These dependencies can be installed using the requirements file:
 c:\python27\python.exe -m pip install -r requirements.txt
 ```
 - Installation on Linux
+   
+   - If you are using a VM, run this command first
+   ```
+   pip freeze > requirements.txt
+   ```
+Now enter,
 ```
 sudo pip install -r requirements.txt
 ```
